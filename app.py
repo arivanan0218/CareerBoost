@@ -179,7 +179,7 @@ st.set_page_config(page_title="CareerBoost.AI", layout="wide")
 st.title("🚀 CareerBoost.AI")
 
 # Sidebar for navigation
-option = st.sidebar.radio("Select Mode", ["📄 Analyze Your Resume", "📝 Create Your Resume", "✍️ Create Your Cover Letter", "📚 Internship & Job Opportunities", "💬 Chat With Career.AI"])
+option = st.sidebar.radio("Select Mode", ["📄 Analyze Your Resume", "📝 Create Your Resume", "✍️ Create Your Cover Letter", "📚 Internship & Job Opportunities", "💬 Chat With CareerBoost.AI"])
 
 if option == "📄 Analyze Your Resume":
     st.subheader("Upload your resume and job description for analysis")
@@ -376,7 +376,7 @@ elif option == "📚 Internship & Job Opportunities":
         else:
             st.write("❌ Please select a job title to search for opportunities.")
 
-elif option == "💬 Chat With Career.AI":
+elif option == "💬 Chat With CareerBoost.AI":
     st.subheader("Ask me anything about careers, resumes, or job search!")
 
     # Chat History
