@@ -179,9 +179,9 @@ st.set_page_config(page_title="CareerBoost.AI", layout="wide")
 st.title("🚀 CareerBoost.AI")
 
 # Sidebar for navigation
-option = st.sidebar.radio("Select Mode", ["📄 Analyze Your Resume", "📝 Create Your Resume", "✍️ Create Your Cover Letter", "📚 Internship & Job Opportunities", "💬 Chat With CareerBoost.AI"])
+option = st.sidebar.radio("Select Mode", ["Analyze Your Resume", "Create Your Resume", "Create Your Cover Letter", "Internship & Job Opportunities", "Chat With CareerBoost.AI"])
 
-if option == "📄 Analyze Your Resume":
+if option == "Analyze Your Resume":
     st.subheader("Upload your resume and job description for analysis")
     
     # User Input: Job Description
@@ -218,7 +218,7 @@ if option == "📄 Analyze Your Resume":
     elif not uploaded_file and (analyze_resume or get_match_score):
         st.write("❌ Please upload your resume to proceed.")
 
-elif option == "📝 Create Your Resume":
+elif option == "Create Your Resume":
     st.subheader("Generate the Best ATS Score Resume")
 
     # User Input: Job Details
@@ -258,7 +258,7 @@ elif option == "📝 Create Your Resume":
         else:
             st.write("❌ Please fill in all the fields to generate the best ATS score resume.")
 
-elif option == "✍️ Create Your Cover Letter":
+elif option == "Create Your Cover Letter":
     st.subheader("Generate a Professional Cover Letter")
 
     # User Input: Job Details
@@ -309,7 +309,7 @@ elif option == "✍️ Create Your Cover Letter":
             st.write(response)
             
             
-elif option == "📚 Internship & Job Opportunities":
+elif option == "Internship & Job Opportunities":
     st.subheader("Find Internship & Job Opportunities")
 
     # Job Titles Dropdown
@@ -376,7 +376,7 @@ elif option == "📚 Internship & Job Opportunities":
         else:
             st.write("❌ Please select a job title to search for opportunities.")
 
-elif option == "💬 Chat With CareerBoost.AI":
+elif option == "Chat With CareerBoost.AI":
     st.subheader("Ask me anything about careers, resumes, or job search!")
 
     # Chat History
