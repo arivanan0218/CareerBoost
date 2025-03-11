@@ -174,7 +174,7 @@ def get_internship_and_job_opportunities(job_title, country=None, work_type=None
     # Assuming response contains internship and job company details
     return response.text
 
-# Streamlit App
+# Streamlit
 st.set_page_config(page_title="CareerBoost.AI", layout="wide")
 st.title("🚀 CareerBoost.AI")
 
