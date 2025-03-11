@@ -1,0 +1,13 @@
+prefix=P:/Intern_knowledge/AI/career/venv/Library
+exec_prefix=P:/Intern_knowledge/AI/career/venv/Library
+libdir=P:/Intern_knowledge/AI/career/venv/Library/lib
+sharedlibdir=P:/Intern_knowledge/AI/career/venv/Library/lib
+includedir=P:/Intern_knowledge/AI/career/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
