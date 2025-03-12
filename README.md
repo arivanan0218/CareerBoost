@@ -25,21 +25,27 @@ Follow these steps to set up CareerBoost.AI locally:
    git clone https://github.com/your-username/CareerBoost.AI.git
 
 2. **Navigate to the Project Directory**:
-  cd CareerBoost.AI
+   ```bash
+   cd CareerBoost.AI
 
 3. **Install Dependencies**:
-  pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Set Up Environment Variables**:
   Create a .env file in the root directory.
   Add your Google API key:
-    GOOGLE_API_KEY=your_api_key_here
+   ```bash
+   GOOGLE_API_KEY=your_api_key_here
 
 5. Run the Application:
-  streamlit run app.py
+   ```bash
+   streamlit run app.py
 
 6. Access the App:
-  Open your browser and go to http://localhost:8501.
+    Open your browser and go to 
+    ```bash
+    http://localhost:8501.
 
 ## Usage
 CareerBoost.AI provides the following functionalities:
