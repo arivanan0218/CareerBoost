@@ -334,7 +334,14 @@ elif option == "Internship & Job Opportunities":
         "IT Solutions Engineer", "DevSecOps Engineer", "Sustainable Energy Engineer", "Tech Systems Engineer", "Data Analytics Engineer", 
         "Software Quality Assurance Engineer", "Security Software Engineer", "Network Security Analyst", "Machine Learning Researcher", 
         "Data Analytics Developer", "Artificial Intelligence Architect", "Quantum Computing Engineer", "Smart Grid Engineer", 
-        "Audio Signal Processing Engineer", "Parallel Computing Engineer", "Cloud DevOps Engineer", "3D Graphics Engineer", "Big Data Engineer"
+        "Audio Signal Processing Engineer", "Parallel Computing Engineer", "Cloud DevOps Engineer", "3D Graphics Engineer", "Big Data Engineer",
+        "UI/UX Designer", "Junior UX Designer", "UI Developer", "UX Research Assistant", "Product Designer (Junior)", "Visual Designer",
+        "Web Designer", "UI/UX Engineer", "UX Researcher", "Interaction Designer", "Front-End Developer (with UI/UX focus)", "Product Designer",
+        "UX Writer", "Information Architect", "Design System Specialist", "Senior UI/UX Engineer", "Lead UX Designer", "Principal UX Researcher",
+        "Product Design Lead", "Head of Design", "Design Strategist", "UX Director", "Accessibility Designer", "Voice UI Designer",
+        "UI/UX Developer (focused on coding)", "Motion Designer", "3D Interaction Designer", "Augmented Reality (AR) Designer",
+        "Virtual Reality (VR) Experience Designer", "UI/UX & Frontend Developer", "Full Stack Designer (UI/UX + Development)", "UX Data Analyst",
+        "UX Copywriter", "DesignOps Specialist"
     ]
 
     job_title = st.selectbox("Select Job Title", job_titles)
