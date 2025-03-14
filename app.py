@@ -341,7 +341,7 @@ elif option == "Internship & Job Opportunities":
         "Product Design Lead", "Head of Design", "Design Strategist", "UX Director", "Accessibility Designer", "Voice UI Designer",
         "UI/UX Developer (focused on coding)", "Motion Designer", "3D Interaction Designer", "Augmented Reality (AR) Designer",
         "Virtual Reality (VR) Experience Designer", "UI/UX & Frontend Developer", "Full Stack Designer (UI/UX + Development)", "UX Data Analyst",
-        "UX Copywriter", "DesignOps Specialist"
+        "UX Copywriter", "DesignOps Specialist", "Human-Centered Design Specialist"
     ]
 
     job_title = st.selectbox("Select Job Title", job_titles)
